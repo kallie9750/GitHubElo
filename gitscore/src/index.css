@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body {
+  margin: 0;
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1c1c1c 0%, #121518 50%, #090A0F 100%);
+  overflow: hidden;
+  position: relative; 
+}
+
+#stars, #stars2, #stars3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 2px;
+  height: 1px;
+  background: transparent;
+  z-index: 0; 
+}
+/* Small stars */
+#stars {
+  box-shadow: 700px 1000px #FFFFFF, 1200px 800px #FFFFFF, 400px 500px #FFFFFF, 900px 1200px #FFFFFF;
+}
+/* Medium stars */
+#stars2 {
+  box-shadow: 500px 700px #FFFFFF, 800px 900px #FFFFFF, 300px 600px #FFFFFF, 700px 400px #FFFFFF;
+}
+/* Large stars */
+#stars3 {
+  box-shadow: 300px 500px #FFFFFF, 600px 1000px #FFFFFF, 200px 400px #FFFFFF, 500px 800px #FFFFFF;
+}
+

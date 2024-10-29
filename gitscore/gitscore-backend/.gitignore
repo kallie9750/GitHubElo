@@ -1,0 +1,3 @@
+node_modules/
+*.local
+gitscore/gitscore-backend/node_modules

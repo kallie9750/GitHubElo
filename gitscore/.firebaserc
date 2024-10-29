@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "githubelo",
+    "staging": "githubelo",
+    " ": "githubelo"
+  },
+  "targets": {},
+  "etags": {}
+}
